@@ -29,7 +29,7 @@ int main(int argc, char** argv)
 // for storing intermediate calculations.  Once created, it can be reused
 // multiple times without incurring the cost of allocating memory on the heap.
 
-    Jacobi<double, double*, double**> eigen_calc(n);
+    Jacobi eigen_calc(n);
 
 // Note:
 // If the matrix you plan to diagonalize (M) is read-only, use this instead:
